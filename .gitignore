@@ -1,0 +1,12 @@
+# Ignore large files
+*.parquet
+*.csv
+*.so
+
+# Ignore virtual environment folders
+myenv/
+
+# Ignore any other temporary files or folders
+*.log
+*.tmp
+
