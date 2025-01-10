@@ -2,6 +2,7 @@
 *.parquet
 *.csv
 *.so
+*.xlsx
 
 # Ignore virtual environment folders
 myenv/
