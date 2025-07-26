@@ -1,13 +1,41 @@
-# Ignore large files
-*.parquet
-*.csv
-*.so
-*.xlsx
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Ignore virtual environment folders
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data Files & Output
+# It's best practice not to commit data files to Git.
+data/
+results/
+*.csv
+*.xlsx
+*.txt
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Model and Scaler files
+*.pt
+*.pth
+*.pkl
+
+# Environment
+.env
+venv/
+env/
 myenv/
 
-# Ignore any other temporary files or folders
-*.log
-*.tmp
+# IDE specific
+.idea/
+.vscode/
+
+# Don't ignore these specific files even if they are in an ignored folder/type
+!data/available_columns.txt
+!best_hyperparameters.jsono
 
