@@ -1,9 +1,0 @@
-{
-    "hidden_dim": 128,
-    "lr": 0.004931604057958144,
-    "weight_decay": 2.8898617033591126e-05,
-    "n_neighbors": 114,
-    "submit_time_weight": 0.3813880494173262,
-    "step_size": 20,
-    "gamma": 0.8381755710447857
-}
